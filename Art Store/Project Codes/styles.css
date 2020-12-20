@@ -1,0 +1,27 @@
+.nav-area li
+{
+
+display:inline-block;
+
+}
+
+
+.nav-area li a
+{
+
+color:#fff;
+text-decoration;none;
+padding:5px 20px;
+font-family:poppins;
+font-size:30px;
+
+}
+
+
+.nav-area li a:hover
+{
+
+background:blue;
+color=#fff;
+
+}

@@ -1,0 +1,62 @@
+<html>
+<head>
+<style>
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;  
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+</style>
+</head>
+<<div class="container">
+  <form action="action_page.php">
+
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name..">
+
+    <label for="contact number">contact number</label>
+    <input type="text" id="contact number" name="contact number" placeholder="Your contact number ..">
+
+    <label for="intrested in">intrested in</label>
+    <select id="intrested in" name="intrested in">
+      <option value="Oil painting">Oil painting</option>
+      <option value="Water painting">Water painting</option>
+      <option value="Spray painting">spray painting</option>
+<option value="Digital painting">Digital painting</option>
+<option value="Ink wash painting">Ink wash painting</option>
+    </select>
+
+    <label for="WHY SHOULD WE HIRE YOU?">WHY SHOULD WE HIRE YOU?</label>
+    <textarea id="WHY SHOULD WE HIRE YOU?t" name="WHY SHOULD WE HIRE YOU?" placeholder="Explain it in atleast 100 words,if you have any experience then share it with us" style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+</body>
+</html>
